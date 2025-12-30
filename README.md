@@ -47,14 +47,8 @@ docker run -d -p 3000:8080 \
 
 1. Open Open WebUI in your browser (`http://localhost:3000`)
 2. Create a new **Preset** or **Model Configuration**
-3. Set the **System Prompt** to the content in [`prompts/health_expert_prompt.txt`](./prompts/health_expert_prompt.txt)
+3. Set the **System Prompt** to the content in [`prompt.md`](./prompt.md)
 4. Select `qwen3:8b` as the model
-
-> Example system prompt includes:
-> - Role definition (“You are a health information assistant…”)
-> - Behavioral guidelines (empathy, clarity, non-diagnostic stance)
-> - Safety disclaimers
-> - Response formatting rules
 
 ### 4. Test & Interact
 
